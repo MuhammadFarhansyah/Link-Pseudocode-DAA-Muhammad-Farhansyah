@@ -1,0 +1,7 @@
+#Diketahui
+a = 5
+t = 3
+
+#Rumus Luas Jajar Genjang = Alas x Tinggi
+luas = a * t
+print("Luas Jajar Genjang = ", luas)
