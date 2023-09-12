@@ -1,0 +1,24 @@
+def swap(x, y):
+    # Membuat list piring dengan 3 elemen
+    piring = [x, y, ""]
+    
+    # Menukar nilai x dan y
+    piring[0] = y
+    piring[1] = x
+    
+    # Mengosongkan piring ke-3
+    piring[2] = ""
+
+    # Menampilkan isi setiap piring
+    for i in range(len(piring)):
+        print("piring", i+1, "=", str(piring[i]))
+
+x = "manggis"
+y = "pisang"
+
+print("piring 1 =", x)
+print("piring 2 =", y)
+print("piring 3 = ")
+
+print("\nHasil penukaran:")
+swap(x, y)
