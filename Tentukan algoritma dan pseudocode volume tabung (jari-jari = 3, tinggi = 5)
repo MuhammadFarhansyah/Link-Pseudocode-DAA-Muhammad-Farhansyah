@@ -1,0 +1,8 @@
+#Diketahui
+r = 3
+t = 5
+pi = 3.14
+
+#Rumus Volume Tabung = pi * r**2 * t
+volume = 3.14 * r**2 * t
+print("Volume Tabung = ", volume)
