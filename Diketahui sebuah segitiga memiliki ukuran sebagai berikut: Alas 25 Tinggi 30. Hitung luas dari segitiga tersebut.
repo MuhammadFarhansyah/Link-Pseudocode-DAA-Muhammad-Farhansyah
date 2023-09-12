@@ -1,0 +1,7 @@
+#Diketahui
+a = 25
+t = 30
+
+#Rumus Luas Segitiga = 1/2 x alas x tinggi
+luas = 1/2 * a * t
+print("Luas Segitiga = ", luas)
